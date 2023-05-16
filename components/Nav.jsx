@@ -26,8 +26,8 @@ const Nav = () => {
         <Image 
           src="/assets/images/logo.svg" 
           alt="logo" 
-          width={30} 
-          height={30} 
+          width={70} 
+          height={70} 
           className="object-contain"
         />
         <p className="logo_text">
@@ -40,7 +40,7 @@ const Nav = () => {
         { session?.user ? (
           <div className="flex gap-3 md:gap-5">
             <Link href="/create-prompt" className="black_btn">
-              Create Post
+              Create Prompt
             </Link>
             <button type="button" onClick={signOut} className="outline_btn">
               Sign Out

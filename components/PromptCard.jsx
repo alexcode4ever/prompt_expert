@@ -45,9 +45,9 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
             <h3 className='font-satoshi font-semibold text-gray-900'>
               {post.creator.username}
             </h3>
-            <p className='font-inter text-sm text-gray-500'>
+            {/* <p className='font-inter text-sm text-gray-500'>
               {post.creator.email}
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -59,8 +59,8 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
                 : "/assets/icons/copy.svg"
             }
             alt={copied === post.prompt ? "tick_icon" : "copy_icon"}
-            width={12}
-            height={12}
+            width={18}
+            height={18}
           />
         </div>
       </div>

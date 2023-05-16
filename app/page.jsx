@@ -4,12 +4,12 @@ const Home = () => {
   return (
     <section className="w-full flex-center flex-col">
       <h1 className="head_text text-center">
-        Discover & Share
+        Discover cool
         <br className="max-md:hidden" />
         <span className="orange_gradient"> AI-Powered Prompts</span>
       </h1>
       <p className="desc text-center">
-        Prompt Expert is a collection of AI prompts for the world to discover a new way to ask AI
+        Prompt Expert is a collection of AI prompts shared by different users across the world
       </p>
 
       <Feed />
