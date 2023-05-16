@@ -4,6 +4,7 @@ A simple project to store AI prompts using Next.js 13.
 Example: 
 https://prompt-expert-sigma.vercel.app/
 
+![pe](https://github.com/alexcode4ever/prompt_expert/assets/122391735/a6a842f7-605b-41ec-af33-e90d33a3f44a)
 
 
 - Next.js 13 new app folder structure
